@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0A1BAA</item>
+        <item name="colorPrimaryVariant">#0A1BAA</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="colorOnBackground">#0E0606</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_700</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">
+            @android:color/transparent
+        </item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">#00000000</item>
+        <item name="colorControlActivated">#120707</item>
+
+    </style>
+
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+</resources>

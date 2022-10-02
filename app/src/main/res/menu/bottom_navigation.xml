@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homePageContainerFragment"
+        android:enabled="true"
+        android:icon="@drawable/home_svgrepo_com"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/watchFragment"
+        android:enabled="true"
+        android:icon="@drawable/sky_play_button_svgrepo_com"
+        android:title="@string/watch" />
+    <item
+        android:id="@+id/scoresFragment"
+        android:enabled="true"
+        android:icon="@drawable/scores_svgrepo_com"
+        android:title="@string/scores" />
+
+    <item
+        android:id="@+id/sportsFragment"
+        android:enabled="true"
+        android:icon="@drawable/four_squares_button_of_view_options_svgrepo_com"
+        android:title="@string/sports" />
+
+</menu>
